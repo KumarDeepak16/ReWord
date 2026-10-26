@@ -27,6 +27,12 @@ AI text is easy to spot. It *delves*, it calls everything *pivotal*, it says "it
 
 Pick the one you use. Each takes under a minute.
 
+**Any AI agent** (Cursor, Gemini CLI, Codex, Claude Code, ChatGPT): paste this prompt
+
+```
+Install the ReWord writing skill from https://github.com/KumarDeepak16/ReWord. Get skills/reword (SKILL.md and examples.md) and skills/tiny-tale. If you support skills, save them in your skills folder, for example ~/.claude/skills for Claude Code or ~/.codex/skills for Codex. If you use rules instead, add skills/reword/SKILL.md as a rule, for example in .cursor/rules for Cursor or GEMINI.md for Gemini CLI. Then follow it for all my writing: assignments, exam answers, project files, emails, and "tiny tale" explanations.
+```
+
 **Claude Code** (plugin, gets updates)
 
 ```
