@@ -16,6 +16,16 @@ AI text is easy to spot. It *delves*, it calls everything *pivotal*, it says "it
   <img src="assets/demo.svg" alt="Demo: an AI paragraph gets its patterns struck out, then rewritten in plain language" width="100%">
 </p>
 
+## How to use
+
+Install with two commands, then just ask: a 5 mark answer, your own style, a tiny tale.
+
+<p align="center">
+  <img src="assets/how-to-use.gif" alt="How to use ReWord: install with two commands, ask for a 5 mark answer, match your style, get a tiny tale" width="100%">
+</p>
+
+<p align="center"><a href="https://reword.1619.in/#how">Watch the full-quality video</a></p>
+
 ## What's inside
 
 | | Skill | What it does |
