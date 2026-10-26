@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-labelledby="t">
+  <title id="t">ReWord: sounds like you wrote it</title>
+  <defs>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.3" fill="#E1E4EC"/></pattern>
+  </defs>
+  <rect width="1280" height="640" fill="#F3F4F8"/>
+  <radialGradient id="warm" cx=".85" cy="0" r=".7"><stop offset="0" stop-color="#FF9A5A" stop-opacity=".18"/><stop offset="1" stop-color="#FF9A5A" stop-opacity="0"/></radialGradient>
+  <rect width="1280" height="640" fill="url(#warm)"/>
+  <rect width="1280" height="640" fill="url(#dots)"/>
+
+  <!-- mark -->
+  <ellipse cx="248" cy="476" rx="104" ry="14" fill="#E5482B" opacity=".14"/>
+  <g transform="translate(120 192)">
+  
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#FF9A5A"/>
+      <stop offset="1" stop-color="#E5482B"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".6" stop-color="#B8301A" stop-opacity="0"/>
+      <stop offset="1" stop-color="#B8301A" stop-opacity=".45"/>
+    </linearGradient>
+    <filter id="lift" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#9C2A12" flood-opacity=".45"/>
+    </filter>
+  </defs>
+  <rect width="256" height="256" rx="58" fill="url(#tile)"/>
+  <rect width="256" height="256" rx="58" fill="url(#base)"/>
+  <path d="M20 76 Q20 16 78 16 H178 Q236 16 236 76 Q128 116 20 76 Z" fill="url(#gloss)"/>
+  <rect x="1.5" y="1.5" width="253" height="253" rx="57" fill="none" stroke="#FFFFFF" stroke-opacity=".35" stroke-width="3"/>
+  <!-- pixel R (machine) whose leg is one ink stroke (human) -->
+  <g transform="translate(128 130) scale(.74) translate(-149 -133)" filter="url(#lift)" fill="#FFFFFF">
+    <rect x="50" y="36" width="34" height="34" rx="9" opacity=".62"/>
+    <rect x="90" y="36" width="34" height="34" rx="9" opacity=".72"/>
+    <rect x="130" y="36" width="34" height="34" rx="9" opacity=".8"/>
+    <rect x="50" y="76" width="34" height="34" rx="9" opacity=".7"/>
+    <rect x="170" y="76" width="34" height="34" rx="9" opacity=".92"/>
+    <rect x="50" y="116" width="34" height="34" rx="9" opacity=".78"/>
+    <rect x="90" y="116" width="34" height="34" rx="9" opacity=".88"/>
+    <rect x="130" y="116" width="34" height="34" rx="9"/>
+    <rect x="50" y="156" width="34" height="34" rx="9" opacity=".86"/>
+    <rect x="50" y="196" width="34" height="34" rx="9" opacity=".95"/>
+    <path d="M150 136 C170 158 184 182 196 202 C204 216 218 220 230 206" fill="none" stroke="#FFFFFF" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</g>
+
+  <g font-family="-apple-system, 'SF Pro Display', 'Segoe UI', Roboto, Arial, sans-serif">
+    <text x="440" y="296" font-size="108" font-weight="800" fill="#1A1C22" letter-spacing="-4">ReWord</text>
+    <text x="444" y="362" font-size="36" fill="#4A4E58">Sounds like you wrote it.</text>
+    <g font-size="20" font-weight="600" fill="#1E7A55">
+      <rect x="444" y="410" width="148" height="40" rx="20" fill="#DDF3E8"/><text x="518" y="437" text-anchor="middle">assignments</text>
+      <rect x="604" y="410" width="148" height="40" rx="20" fill="#DDF3E8"/><text x="678" y="437" text-anchor="middle">exam answers</text>
+      <rect x="764" y="410" width="136" height="40" rx="20" fill="#DDF3E8"/><text x="832" y="437" text-anchor="middle">project files</text>
+      <rect x="912" y="410" width="112" height="40" rx="20" fill="#DDF3E8"/><text x="968" y="437" text-anchor="middle">research</text>
+      <rect x="1036" y="410" width="96" height="40" rx="20" fill="#DDF3E8"/><text x="1084" y="437" text-anchor="middle">emails</text>
+    </g>
+  </g>
+</svg>
+

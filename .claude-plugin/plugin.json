@@ -1,0 +1,13 @@
+{
+  "name": "reword",
+  "version": "1.0.0",
+  "description": "Write anything so it reads like a real person wrote it: assignments, exam answers, project files, research papers, documents, emails. Learns your style, removes AI patterns. Includes tiny-tale for explain-like-I'm-5.",
+  "author": {
+    "name": "Deepak Kumar",
+    "url": "https://1619.in"
+  },
+  "homepage": "https://reword.1619.in",
+  "repository": "https://github.com/KumarDeepak16/ReWord",
+  "license": "MIT",
+  "keywords": ["writing", "humanize", "assignment", "style", "ai-patterns", "eli5", "india"]
+}

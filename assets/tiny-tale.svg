@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="t">
+  <title id="t">Tiny Tale</title>
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#FFE27A"/>
+      <stop offset="1" stop-color="#F5A623"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="lift" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#A3620A" flood-opacity=".4"/>
+    </filter>
+  </defs>
+  <rect width="256" height="256" rx="58" fill="url(#tile)"/>
+  <path d="M20 76 Q20 16 78 16 H178 Q236 16 236 76 Q128 116 20 76 Z" fill="url(#gloss)"/>
+  <rect x="1.5" y="1.5" width="253" height="253" rx="57" fill="none" stroke="#FFFFFF" stroke-opacity=".4" stroke-width="3"/>
+  <g filter="url(#lift)">
+    <!-- open book -->
+    <path d="M40 178 Q84 158 128 178 Q172 158 216 178 L216 204 Q172 186 128 204 Q84 186 40 204 Z" fill="#FFFFFF"/>
+    <path d="M128 178 V204" stroke="#F2C76B" stroke-width="4"/>
+    <!-- pixels rising off the page become one star: a hard idea, told simply -->
+    <rect x="68" y="128" width="22" height="22" rx="6" fill="#FFFFFF" opacity=".6"/>
+    <rect x="92" y="102" width="18" height="18" rx="5" fill="#FFFFFF" opacity=".75"/>
+    <rect x="64" y="94" width="14" height="14" rx="4" fill="#FFFFFF" opacity=".5"/>
+    <path d="M166 42 C170 74 180 84 212 88 C180 92 170 102 166 134 C162 102 152 92 120 88 C152 84 162 74 166 42 Z" fill="#E5482B"/>
+  </g>
+</svg>

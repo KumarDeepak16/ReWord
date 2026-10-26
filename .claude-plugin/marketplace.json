@@ -1,0 +1,15 @@
+{
+  "name": "reword-skills",
+  "description": "ReWord: writing skills that sound like you, not like AI.",
+  "owner": {
+    "name": "Deepak Kumar",
+    "url": "https://1619.in"
+  },
+  "plugins": [
+    {
+      "name": "reword",
+      "source": "./",
+      "description": "Write and rewrite anything in your own style with no AI patterns, plus tiny-tale for simple explanations."
+    }
+  ]
+}
